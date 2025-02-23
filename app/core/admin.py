@@ -11,7 +11,7 @@ class UserAdmin(BaseUserAdmin):
 
     fieldsets = (
         (
-            None,
+            _("Personal Information"),
             {
                 "fields": (
                     "name",
